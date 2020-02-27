@@ -1,0 +1,60 @@
+{
+"shortcuts": [
+        {
+            // Hide cell outputs
+            "command": "notebook:hide-cell-outputs",
+            "keys": [
+                "L"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            // Show cell outputs
+            "command": "notebook:show-cell-outputs",
+            "keys": [
+                "Shift L"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            // Hide cell code
+            "command": "notebook:hide-cell-code",
+            "keys": [
+                "H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            // Show cell code
+            "command": "notebook:show-cell-code",
+            "keys": [
+                "Shift H"
+            ],
+            "selector": ".jp-Notebook:focus"
+        },
+        {
+            // Move cell up
+            "command": "notebook:move-cell-up",
+              "keys": [
+                "Ctrl ArrowUp"
+              ],
+              "selector": ".jp-Notebook:focus",
+        },
+        {
+            // Move cell down
+            "command": "notebook:move-cell-down",
+              "keys": [
+                "Ctrl ArrowDown"
+              ],
+              "selector": ".jp-Notebook:focus",
+        },
+        {
+            // Move cell down
+            "command": "notebook:run-all-above",
+              "keys": [
+                "Ctrl Q"
+              ],
+              "selector": ".jp-Notebook:focus",
+        },
+    ]
+}
