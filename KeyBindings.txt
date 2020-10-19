@@ -1,3 +1,5 @@
+// NOTE: Follow's json syntax except includes ability to comment with double forward slashes.
+
 {
 "shortcuts": [
         {
